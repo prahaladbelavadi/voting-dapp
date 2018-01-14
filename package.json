@@ -1,0 +1,28 @@
+{
+  "name": "voting-dapp",
+  "version": "1.0.0",
+  "description": "A voting Dapp",
+  "main": "index.js",
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "web3": "^0.20.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prahaladbelavadi/voting-dapp.git"
+  },
+  "keywords": [
+    "Dapp",
+    "Ethereum"
+  ],
+  "author": "Prahaladbelavadi:{prahaladbelavadi@gmail.com}",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prahaladbelavadi/voting-dapp/issues"
+  },
+  "homepage": "https://github.com/prahaladbelavadi/voting-dapp#readme"
+}
