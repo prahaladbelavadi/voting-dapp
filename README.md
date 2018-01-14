@@ -1,8 +1,6 @@
 # voting-dapp
 My first Attempt at building a voting Dapp
 
-I used [This tutorial](https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2) as a guide into building this voting app.
-
 Commands ran:
 - Install Dependenecies
 
@@ -11,10 +9,16 @@ $ npm install ethereumjs-testrpc web3 --save
 $ npm install ethereumjs-testrpc web3@0.20.1 --save
 ```
 - Initiate testrpc
-
 ```bash
 $ node_modules/.bin/testrpc
 ```
+- Rest are available in [here](https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2)
 
-Here's a list of errors I came across:
-- https://github.com/nodejs/node-gyp/issues/746
+_Node Scripts run asynchrously;this tutorial uses the node repl directly_
+
+#### Here's a list of errors I came across:
+- [Node gyp python incompatibility](https://github.com/nodejs/node-gyp/issues/746)
+- [Web page not updating](https://medium.com/@awmpietro/great-tutorial-congrats-for-that-you-provided-a-great-service-for-the-community-81f36e239f00)
+
+Credits:
+- [Tutorial by Mahesh, Founder of Zastrin](https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2)
